@@ -17,7 +17,6 @@ const removeFirstitem = document.getElementById("remove-first-item-button");
 removeFirstitem.addEventListener("click", function () {
     const list = document.getElementById("spotted-animals-list")
     list.firstElementChild.remove();
-    // alert("boo")
 });
 
 const removeAll = document.getElementById("remove-all-button");
@@ -30,8 +29,3 @@ removeAll.addEventListener("click", function () {
 
 });
 
-while (i < colors.length) {
-    console.log(colors[i])
-    i++
-
-}
